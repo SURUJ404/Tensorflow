@@ -79,7 +79,7 @@ Learn Classification
 
 ## 📺 Learning Resource
 
-[![Watch Classification Hands-On Tutorial](https://img.youtube.com/vi/rBNPSt4Way4/0.jpg)](https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s)
+[![TensorFlow Hands-On Tutorial](https://img.youtube.com/vi/DVg6NtfIEeo/0.jpg)](https://www.youtube.com/watch?v=DVg6NtfIEeo&t=264s) 
 
 📌 Why This Repo?
 Focused on learning by doing
