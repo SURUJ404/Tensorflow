@@ -69,7 +69,9 @@ Matplotlib
 
 To better understand the concepts and follow along with implementations, check out this helpful video:
 
-▶️ https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s 
+## 📺 Deep Learning Tutorial (TensorFlow + Keras)
+
+[![Watch Tutorial](https://img.youtube.com/vi/rBNPSt4Way4/maxresdefault.jpg)](https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s)
 
 📌 Why This Repo?
 Focused on learning by doing
