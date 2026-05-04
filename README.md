@@ -74,6 +74,13 @@ To better understand the concepts and follow along with implementations, check o
 ![Watch Tutorial]
 [![TensorFlow Hands-On Tutorial](https://img.youtube.com/vi/rBNPSt4Way4/0.jpg)](https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s)
 
+
+Learn Classification 
+
+## 📺 Learning Resource
+
+[![Watch Classification Hands-On Tutorial](https://img.youtube.com/vi/rBNPSt4Way4/0.jpg)](https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s)
+
 📌 Why This Repo?
 Focused on learning by doing
 Covers both fundamentals and advanced topics
