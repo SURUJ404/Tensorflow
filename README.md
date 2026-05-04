@@ -79,7 +79,7 @@ Focused on learning by doing
 Covers both fundamentals and advanced topics
 Helps bridge the gap between theory and real-world implementation
 ⚡ Getting Started
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/SURUJ404/Tensorflow.git
 cd your-repo-name
 pip install -r requirements.txt
 🤝 Contributing
