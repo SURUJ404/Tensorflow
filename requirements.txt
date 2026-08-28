@@ -1,0 +1,13 @@
+# Core ML/DL stack
+tensorflow-cpu==2.21.0
+numpy
+matplotlib
+scikit-learn
+
+# Notebook tooling
+nbformat>=5.9
+nbclient>=0.10
+jupyter
+
+# Optional: GPU acceleration (see tensorflow docs)
+# tensorflow==2.21.0

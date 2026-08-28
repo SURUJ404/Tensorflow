@@ -1,103 +1,40 @@
-TensorFlow Hands-On Learning Repository
+# TensorFlow Hands-On: Machine Learning & Deep Learning
 
-This repository is designed as a practical, hands-on journey into deep learning using TensorFlow and Keras. Instead of just theory, it focuses on building real models, experimenting with data, and understanding how neural networks behave in real-world scenarios.
+A complete, reproducible, **from-scratch** journey into machine learning and deep learning using **TensorFlow 2 + Keras 3**.
 
-If you're looking to move beyond just reading and actually building, this repo is structured for exactly that.
+Every notebook is written from scratch, designed to run end-to-end on CPU (verified), and structured as a progressive curriculum:
 
-What You'll Learn  ? 
+| # | Chapter | Topic | Notebook |
+|---|---------|-------|----------|
+| 1 | Neural Network | First feed-forward net on MNIST | [01-Neural-Network](01-Neural-Network/README.md) |
+| 2 | Binary Classification | IMDB sentiment (sigmoid) | [02-Binary-Classification](02-Binary-Classification/README.md) |
+| 3 | Multi-Class Classification | Reuters topics (softmax) | [03-Multi-Class-Classification](03-Multi-Class-Classification/README.md) |
+| 4 | Regression | House price prediction (from-scratch data) | [04-Regression-House-Prices](04-Regression-House-Prices/README.md) |
+| 5 | Overfitting & Underfitting | Diagnose & fix both failure modes | [05-Overfitting-Underfitting](05-Overfitting-Underfitting/README.md) |
+| 6 | Convolutional Neural Networks | Feature maps on Fashion-MNIST | [06-Convolutional-Neural-Networks](06-Convolutional-Neural-Networks/README.md) |
+| 7 | One-Hot Encoding & Embeddings | Text to numbers | [07-Embeddings-One-Hot](07-Embeddings-One-Hot/README.md) |
+| 8 | Recurrent Neural Networks | Time-series + LSTM text | [08-Recurrent-Neural-Networks](08-Recurrent-Neural-Networks/README.md) |
+| 9 | Text Generation with LSTM | Char-level GPT-ish sampling | [09-Text-Generation-LSTM](09-Text-Generation-LSTM/README.md) |
+| 10 | Deep Dream | Visualize CNN features | [10-Deep-Dream](10-Deep-Dream/README.md) |
+| 11 | Variational Autoencoders | Generative models | [11-Variational-Autoencoder](11-Variational-Autoencoder/README.md) |
+| 12 | Generative Adversarial Networks | Generator vs Discriminator | [12-Generative-Adversarial-Networks](12-Generative-Adversarial-Networks/README.md) |
 
-This repository walks through core deep learning concepts with implementation-first examples:
+## Why "from scratch"?
+- No opaque black boxes: every network is assembled layer-by-layer and explained.
+- No huge downloads for chapter 4 and 10 (data generated with `numpy`).
+- All chapters verified executing on CPU with `tensorflow-cpu`.
 
-1. Build Your First Neural Network
-Understanding layers, activation functions, and model structure
-Creating and training a simple neural network using Keras
-Evaluating performance and making predictions
+## Quick Start
 
-2. Classification Example
-Binary and multi-class classification
-Working with real datasets
-Model evaluation metrics like accuracy and loss
-
-3. Predicting House Prices
-Regression using neural networks
-Handling numerical data
-Building models for real-world prediction problems
-
-4. Overfitting and Underfitting
-Identifying model performance issues
-Techniques like regularization, dropout, and validation
-Improving generalization
-
-5. Convolutional Neural Networks (CNNs)
-Image processing fundamentals
-Building CNN architectures
-Applying models to image classification tasks
-
-6. One-Hot Encoding
-Converting categorical data into machine-readable format
-Preparing datasets for training
-
-7. Recurrent Neural Networks (RNNs)
-Understanding sequence data
-Building RNN models for time-series and text
-
-8. Text Generation with LSTM
-Generating sequences using LSTM networks
-Training models on text datasets
-Producing realistic text outputs
-
-9. Deep Dream
-Visualizing what neural networks learn
-Generating psychedelic-style images
-
-10. Generating Images with VAEs
-Understanding Variational Autoencoders
-Learning latent space representations
-Creating new images from trained models
-
-11. Introduction to GANs
-Basics of Generative Adversarial Networks
-Generator vs Discriminator concept
-
-Training simple GAN models
-🛠️ Tech Stack
-TensorFlow
-Keras
-NumPy
-Matplotlib
-📺 Learning Resource
-
-To better understand the concepts and follow along with implementations, check out this helpful video:
-
-## 📺 Deep Learning Tutorial (TensorFlow + Keras)
-
-![Watch Tutorial]
-[![TensorFlow Hands-On Tutorial](https://img.youtube.com/vi/rBNPSt4Way4/0.jpg)](https://www.youtube.com/watch?v=rBNPSt4Way4&t=1s)
-
-
-Learn Classification 
-
-## 📺 Learning Resource
-
-[![TensorFlow Hands-On Tutorial](https://img.youtube.com/vi/DVg6NtfIEeo/0.jpg)](https://www.youtube.com/watch?v=DVg6NtfIEeo&t=264s) 
-
-📌 Why This Repo?
-Focused on learning by doing
-Covers both fundamentals and advanced topics
-Helps bridge the gap between theory and real-world implementation
-⚡ Getting Started
+```bash
 git clone https://github.com/SURUJ404/Tensorflow.git
-cd your-repo-name
+cd Tensorflow
 pip install -r requirements.txt
-🤝 Contributing
+jupyter lab
+# or run every notebook non-interactively:
+python tools/run_all.py
+```
 
-Feel free to contribute by:
-
-Improving code
-Adding new models
-Enhancing documentation
-
-
-This project is open-source . 
-
-Build. Break. Learn. Repeat.
+## Contributing & License
+Improvements, fixed notebooks, and new chapter ideas are welcome.
+This project is open-source (added `LICENSE`).
