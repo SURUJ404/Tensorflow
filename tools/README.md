@@ -10,5 +10,4 @@ Every notebook in this repo is **generated** from a small builder module so the 
 - `validate.py` – fast sanity check (JSON well-formed, no syntax errors)
 
 ## Why build notebooks from code?
-You can regenerate any notebook after tweaking its builder, inspect diffs easily,
-and CI can re-run all of them on a clean environment.
+You can regenerate any notebook after tweaking its builder, inspect diffs easily . 
